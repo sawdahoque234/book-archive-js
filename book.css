@@ -1,0 +1,12 @@
+.books {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.book {
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid rgba(0, 9, 12, 0.877);
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
