@@ -34,7 +34,6 @@ const inputbtn = () => {
             <img src="${imgUrl}" class="img-fluid mx-auto d-block w-100 h-100">
             <div class="card-body">
             <h5 class="card-title text-danger">${book.title}</h5>
-            <h5 class="card-title text-danger">${book.numfound}</h5>
             <p class="card-text  text-success">Author_Name:${book.author_name[0]}</p>
             <small class="card-text">Publisher_Name: ${book.publisher[0]}</small>
             <p class="card-text">First Publish Year:${book.first_publish_year}</p>
